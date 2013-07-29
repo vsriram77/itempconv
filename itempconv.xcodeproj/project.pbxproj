@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0502ED6A17A54EA400524674 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0502ED6917A54EA400524674 /* UIKit.framework */; };
+		0502ED6C17A54EA400524674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0502ED6B17A54EA400524674 /* Foundation.framework */; };
+		0502ED6E17A54EA400524674 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0502ED6D17A54EA400524674 /* CoreGraphics.framework */; };
+		0502ED7417A54EA400524674 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0502ED7217A54EA400524674 /* InfoPlist.strings */; };
+		0502ED7617A54EA400524674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502ED7517A54EA400524674 /* main.m */; };
+		0502ED7A17A54EA400524674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502ED7917A54EA400524674 /* AppDelegate.m */; };
+		0502ED7C17A54EA400524674 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0502ED7B17A54EA400524674 /* Default.png */; };
+		0502ED7E17A54EA400524674 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0502ED7D17A54EA400524674 /* Default@2x.png */; };
+		0502ED8017A54EA400524674 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0502ED7F17A54EA400524674 /* Default-568h@2x.png */; };
+		0502ED8817A54EA500524674 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0502ED8717A54EA500524674 /* SenTestingKit.framework */; };
+		0502ED8917A54EA500524674 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0502ED6917A54EA400524674 /* UIKit.framework */; };
+		0502ED8A17A54EA500524674 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0502ED6B17A54EA400524674 /* Foundation.framework */; };
+		0502ED9217A54EA500524674 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0502ED9017A54EA500524674 /* InfoPlist.strings */; };
+		0502ED9517A54EA500524674 /* itempconvTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502ED9417A54EA500524674 /* itempconvTests.m */; };
+		0502EDA117A551CE00524674 /* TempConvViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0502ED9F17A551CE00524674 /* TempConvViewController.m */; };
+		0502EDA217A551CE00524674 /* TempConvViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0502EDA017A551CE00524674 /* TempConvViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0502ED8B17A54EA500524674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0502ED5E17A54EA400524674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0502ED6517A54EA400524674;
+			remoteInfo = itempconv;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0502ED6617A54EA400524674 /* itempconv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = itempconv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0502ED6917A54EA400524674 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0502ED6B17A54EA400524674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0502ED6D17A54EA400524674 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0502ED7117A54EA400524674 /* itempconv-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "itempconv-Info.plist"; sourceTree = "<group>"; };
+		0502ED7317A54EA400524674 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0502ED7517A54EA400524674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0502ED7717A54EA400524674 /* itempconv-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "itempconv-Prefix.pch"; sourceTree = "<group>"; };
+		0502ED7817A54EA400524674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0502ED7917A54EA400524674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0502ED7B17A54EA400524674 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0502ED7D17A54EA400524674 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0502ED7F17A54EA400524674 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0502ED8617A54EA500524674 /* itempconvTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = itempconvTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0502ED8717A54EA500524674 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0502ED8F17A54EA500524674 /* itempconvTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "itempconvTests-Info.plist"; sourceTree = "<group>"; };
+		0502ED9117A54EA500524674 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0502ED9317A54EA500524674 /* itempconvTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = itempconvTests.h; sourceTree = "<group>"; };
+		0502ED9417A54EA500524674 /* itempconvTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = itempconvTests.m; sourceTree = "<group>"; };
+		0502ED9E17A551CE00524674 /* TempConvViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TempConvViewController.h; sourceTree = "<group>"; };
+		0502ED9F17A551CE00524674 /* TempConvViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TempConvViewController.m; sourceTree = "<group>"; };
+		0502EDA017A551CE00524674 /* TempConvViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TempConvViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0502ED6317A54EA400524674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0502ED6A17A54EA400524674 /* UIKit.framework in Frameworks */,
+				0502ED6C17A54EA400524674 /* Foundation.framework in Frameworks */,
+				0502ED6E17A54EA400524674 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0502ED8217A54EA500524674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0502ED8817A54EA500524674 /* SenTestingKit.framework in Frameworks */,
+				0502ED8917A54EA500524674 /* UIKit.framework in Frameworks */,
+				0502ED8A17A54EA500524674 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0502ED5D17A54EA400524674 = {
+			isa = PBXGroup;
+			children = (
+				0502ED6F17A54EA400524674 /* itempconv */,
+				0502ED8D17A54EA500524674 /* itempconvTests */,
+				0502ED6817A54EA400524674 /* Frameworks */,
+				0502ED6717A54EA400524674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0502ED6717A54EA400524674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0502ED6617A54EA400524674 /* itempconv.app */,
+				0502ED8617A54EA500524674 /* itempconvTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0502ED6817A54EA400524674 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0502ED6917A54EA400524674 /* UIKit.framework */,
+				0502ED6B17A54EA400524674 /* Foundation.framework */,
+				0502ED6D17A54EA400524674 /* CoreGraphics.framework */,
+				0502ED8717A54EA500524674 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0502ED6F17A54EA400524674 /* itempconv */ = {
+			isa = PBXGroup;
+			children = (
+				0502ED7817A54EA400524674 /* AppDelegate.h */,
+				0502ED7917A54EA400524674 /* AppDelegate.m */,
+				0502ED7017A54EA400524674 /* Supporting Files */,
+				0502ED9E17A551CE00524674 /* TempConvViewController.h */,
+				0502ED9F17A551CE00524674 /* TempConvViewController.m */,
+				0502EDA017A551CE00524674 /* TempConvViewController.xib */,
+			);
+			path = itempconv;
+			sourceTree = "<group>";
+		};
+		0502ED7017A54EA400524674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0502ED7117A54EA400524674 /* itempconv-Info.plist */,
+				0502ED7217A54EA400524674 /* InfoPlist.strings */,
+				0502ED7517A54EA400524674 /* main.m */,
+				0502ED7717A54EA400524674 /* itempconv-Prefix.pch */,
+				0502ED7B17A54EA400524674 /* Default.png */,
+				0502ED7D17A54EA400524674 /* Default@2x.png */,
+				0502ED7F17A54EA400524674 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0502ED8D17A54EA500524674 /* itempconvTests */ = {
+			isa = PBXGroup;
+			children = (
+				0502ED9317A54EA500524674 /* itempconvTests.h */,
+				0502ED9417A54EA500524674 /* itempconvTests.m */,
+				0502ED8E17A54EA500524674 /* Supporting Files */,
+			);
+			path = itempconvTests;
+			sourceTree = "<group>";
+		};
+		0502ED8E17A54EA500524674 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0502ED8F17A54EA500524674 /* itempconvTests-Info.plist */,
+				0502ED9017A54EA500524674 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0502ED6517A54EA400524674 /* itempconv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0502ED9817A54EA500524674 /* Build configuration list for PBXNativeTarget "itempconv" */;
+			buildPhases = (
+				0502ED6217A54EA400524674 /* Sources */,
+				0502ED6317A54EA400524674 /* Frameworks */,
+				0502ED6417A54EA400524674 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = itempconv;
+			productName = itempconv;
+			productReference = 0502ED6617A54EA400524674 /* itempconv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0502ED8517A54EA500524674 /* itempconvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0502ED9B17A54EA500524674 /* Build configuration list for PBXNativeTarget "itempconvTests" */;
+			buildPhases = (
+				0502ED8117A54EA500524674 /* Sources */,
+				0502ED8217A54EA500524674 /* Frameworks */,
+				0502ED8317A54EA500524674 /* Resources */,
+				0502ED8417A54EA500524674 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0502ED8C17A54EA500524674 /* PBXTargetDependency */,
+			);
+			name = itempconvTests;
+			productName = itempconvTests;
+			productReference = 0502ED8617A54EA500524674 /* itempconvTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0502ED5E17A54EA400524674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Y.CORP.YAHOO.COM\\vsriram";
+			};
+			buildConfigurationList = 0502ED6117A54EA400524674 /* Build configuration list for PBXProject "itempconv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0502ED5D17A54EA400524674;
+			productRefGroup = 0502ED6717A54EA400524674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0502ED6517A54EA400524674 /* itempconv */,
+				0502ED8517A54EA500524674 /* itempconvTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0502ED6417A54EA400524674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0502ED7417A54EA400524674 /* InfoPlist.strings in Resources */,
+				0502ED7C17A54EA400524674 /* Default.png in Resources */,
+				0502ED7E17A54EA400524674 /* Default@2x.png in Resources */,
+				0502ED8017A54EA400524674 /* Default-568h@2x.png in Resources */,
+				0502EDA217A551CE00524674 /* TempConvViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0502ED8317A54EA500524674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0502ED9217A54EA500524674 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0502ED8417A54EA500524674 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0502ED6217A54EA400524674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0502ED7617A54EA400524674 /* main.m in Sources */,
+				0502ED7A17A54EA400524674 /* AppDelegate.m in Sources */,
+				0502EDA117A551CE00524674 /* TempConvViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0502ED8117A54EA500524674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0502ED9517A54EA500524674 /* itempconvTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0502ED8C17A54EA500524674 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0502ED6517A54EA400524674 /* itempconv */;
+			targetProxy = 0502ED8B17A54EA500524674 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0502ED7217A54EA400524674 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0502ED7317A54EA400524674 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0502ED9017A54EA500524674 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0502ED9117A54EA500524674 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0502ED9617A54EA500524674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0502ED9717A54EA500524674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0502ED9917A54EA500524674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itempconv/itempconv-Prefix.pch";
+				INFOPLIST_FILE = "itempconv/itempconv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0502ED9A17A54EA500524674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itempconv/itempconv-Prefix.pch";
+				INFOPLIST_FILE = "itempconv/itempconv-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0502ED9C17A54EA500524674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/itempconv.app/itempconv";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itempconv/itempconv-Prefix.pch";
+				INFOPLIST_FILE = "itempconvTests/itempconvTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0502ED9D17A54EA500524674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/itempconv.app/itempconv";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "itempconv/itempconv-Prefix.pch";
+				INFOPLIST_FILE = "itempconvTests/itempconvTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0502ED6117A54EA400524674 /* Build configuration list for PBXProject "itempconv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0502ED9617A54EA500524674 /* Debug */,
+				0502ED9717A54EA500524674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0502ED9817A54EA500524674 /* Build configuration list for PBXNativeTarget "itempconv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0502ED9917A54EA500524674 /* Debug */,
+				0502ED9A17A54EA500524674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0502ED9B17A54EA500524674 /* Build configuration list for PBXNativeTarget "itempconvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0502ED9C17A54EA500524674 /* Debug */,
+				0502ED9D17A54EA500524674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0502ED5E17A54EA400524674 /* Project object */;
+}
